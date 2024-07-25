@@ -832,13 +832,6 @@
             ]
         },
         {
-            "key": "97d6cdae-1ad2-453b-a043-72dc8a8a3c01",
-            "title": "home-banner-with-slider-background",
-            "icon": "sicon-arrow-swap",
-            "path": "home.home-banner-with-slider-background",
-            "fields": []
-        },
-        {
             "key": "eb97ad58-c191-4a42-958d-23db2ca4388b",
             "title": "about us",
             "icon": "sicon-store",
