@@ -11,10 +11,7 @@
                 <a href="{{ cat.url }}"
                     class="relative w-24 h-24 bg-custom rounded-full flex items-center justify-center {{ cat.image ? '' : 'has-placeholder' }} hover:bg-white hover:shadow-custom transition-colors duration-300">
                     <div class="flex items-center justify-center w-full h-full">
-                        {% if cat.image %}
-                        <img src="{{ cat.image ? cat.image : 'images/placeholder.png' | asset }}"
-                            class="w-16 h-16 object-cover rounded-full" width="64" height="64" alt="{{ cat.name }}" />
-                        {% else %}
+
                         {% if cat.name == 'عقود' %}
                         <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -773,7 +770,6 @@
                         {% else %}
 
                         <!-- أيقونة استفهام كبديل افتراضي -->
-                        {% endif %}
                         {% endif %}
                     </div>
                 </a>
