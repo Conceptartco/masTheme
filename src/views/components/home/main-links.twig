@@ -753,14 +753,16 @@
 {% block styles %}
 <style>
        /* تحديد لون SVG الأصلي */
-       .svg-hover path {
+       .svg-hover path,
+       .svg-hover circle {
               fill: #fff;
               transition: fill 0.3s, stroke 0.3s;
               /* إضافة انتقال سلس */
        }
 
        /* تغيير لون SVG عند التمرير عليه */
-       .svg-hover:hover path {
+       .svg-hover:hover path,
+       .svg-hover:hover circle {
               fill: #9E804A;
        }
 </style>
